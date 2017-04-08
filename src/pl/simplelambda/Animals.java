@@ -10,8 +10,8 @@ public class Animals {
     public void listAnimals() {
         List animals = Arrays.asList(a);
 
-        //animals.forEach((animal) -> System.out.println(animal + "; "));
+        animals.forEach((animal) -> System.out.println(animal + "; "));
         //lub
-        animals.forEach(System.out::println);
+        //animals.forEach(System.out::println);
     }
 }
